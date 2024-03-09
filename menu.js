@@ -1,6 +1,11 @@
 /*--
   (c) copyright 2016 Reklamebau GmbH
 */
+
+const home = document.getElementById('home')
+const history = document.getElementById('history')
+const contact = document.getElementById('contact')
+const location = document.getElementById('location')
 function toggleButton(x) {
     x.classList.toggle("change");
 
@@ -13,8 +18,7 @@ function toggleButton(x) {
     }
 }
 
-function selectMenuItem(evt) {
-    var href = evt.currentTarget.href;
+function selectMenuItem(href) {
 
     var svgDoc = document.getElementById('banner').contentDocument;
     if( svgDoc!==undefined ) {
@@ -31,6 +35,12 @@ function selectMenuItem(evt) {
                 layer2.setAttributeNS(null, "visibility", "hidden")
             }
         }
+    }
+
+    switch (href){
+        case "home":
+            home.classList.add("")
+
     }
 
     var menuItems = document.getElementsByClassName("menu-item");

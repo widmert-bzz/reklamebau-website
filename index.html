@@ -11,7 +11,7 @@
   <script type="text/javascript" src="menu.js"></script>
 </head>
 <body>
-<div class="header">
+<div class="header hide-small">
   <object id="banner" class="banner" type="image/svg+xml" data="images/banner.svg"></object>
 </div>
 
@@ -25,16 +25,14 @@
         <div class="bar3"></div>
       </div>
     </li>
-    <li><a id="default" class="menu-item padding-large" href="#home" onclick="selectMenuItem(event)">Home</a></li>
-    <li class="hide-small"><a class="menu-item padding-large" href="#offer" onclick="selectMenuItem(event)">Angebot</a></li>
-    <li class="hide-small"><a class="menu-item padding-large" href="#history" onclick="selectMenuItem(event)">Geschichte</a></li>
-    <li class="hide-small"><a class="menu-item padding-large" href="#contact" onclick="selectMenuItem(event)">Kontakt</a></li>
-    <li class="hide-small"><a class="menu-item padding-large" href="#location" onclick="selectMenuItem(event)">Standort</a></li>
+    <li><a id="default" class="menu-item padding-large" onclick="selectMenuItem('home')">Home</a></li>
+    <li class="hide-small"><a class="menu-item padding-large" onclick="selectMenuItem('history')">Geschichte</a></li>
+    <li class="hide-small"><a class="menu-item padding-large" onclick="selectMenuItem('contact')">Kontakt</a></li>
+    <li class="hide-small"><a class="menu-item padding-large" onclick="selectMenuItem('location')">Standort</a></li>
   </ul>
   <!-- small screens -->
   <div id="small" class="hide hide-large">
     <ul class="menu left-align large">
-      <li><a class="menu-item padding-large" href="#offer" onclick="selectMenuItem(event)">Angebot</a></li>
       <li><a class="menu-item padding-large" href="#history" onclick="selectMenuItem(event)">Geschichte</a></li>
       <li><a class="menu-item padding-large" href="#contact" onclick="selectMenuItem(event)">Kontakt</a></li>
       <li><a class="menu-item padding-large" href="#location" onclick="selectMenuItem(event)">Standort</a></li>
@@ -78,24 +76,6 @@
           <img src="images/home4.jpg" alt="Home 4" />
         </div>
       </div>
-    </div>
-  </div>
-
-  <!-- Seite Angebot -->
-  <div id="offer">
-    <p>
-      Wir stellen alle möglichen Arten von Tafeln, Schilder, Einzelbuchstaben, hinterleuchtete Schriften, Leuchtkästen, Stehlen, Pylonen und Leitsystem-Tafeln her.
-    </p>
-    <p>
-      Beleuchtungsmittel stellen wir für anspruchsvolle Ausleuchtungen auch in modernster LED Technologie her.
-    </p>
-    <p>
-      Ebenfalls bieten wir Reinigungs- und Revisionsarbeiten an und führen Umbauten auf LED durch.
-    </p>
-    <p class="light-blue">
-      Schnell - flexibel - direkt.
-    </p>
-    <div class="images">
       <div class="responsive">
         <div class="img">
           <img src="images/angebot1.jpg" alt="Angebot 1" />
