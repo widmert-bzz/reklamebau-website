@@ -7,7 +7,7 @@
 /*-- General -----*/
 @font-face {
     font-family: 'TeX Gyre Adventor';
-    src: url('../fonts/texgyreadventor-regular-webfont.woff') format('woff');
+    src: url('fonts/texgyreadventor-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
