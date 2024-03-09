@@ -1,0 +1,256 @@
+<!--
+  (c) copyright 2016 Reklamebau GmbH
+-->
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+  <title>reklamebau gmbh</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <script type="text/javascript" src="menu.js"></script>
+</head>
+<body>
+<div class="header">
+  <object id="banner" class="banner" type="image/svg+xml" data="../images/banner.svg"></object>
+</div>
+
+<div class="main-menu">
+  <!-- large screens -->
+  <ul class="menu shadow left-align large">
+    <li class="hide-large open right">
+      <div class="menu-icon large" title="Menu ein/aus blenden" onclick="toggleButton(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </li>
+    <li><a id="default" class="menu-item padding-large" href="#home" onclick="selectMenuItem(event)">Home</a></li>
+    <li class="hide-small"><a class="menu-item padding-large" href="#offer" onclick="selectMenuItem(event)">Angebot</a></li>
+    <li class="hide-small"><a class="menu-item padding-large" href="#history" onclick="selectMenuItem(event)">Geschichte</a></li>
+    <li class="hide-small"><a class="menu-item padding-large" href="#contact" onclick="selectMenuItem(event)">Kontakt</a></li>
+    <li class="hide-small"><a class="menu-item padding-large" href="#location" onclick="selectMenuItem(event)">Standort</a></li>
+  </ul>
+  <!-- small screens -->
+  <div id="small" class="hide hide-large">
+    <ul class="menu left-align large">
+      <li><a class="menu-item padding-large" href="#offer" onclick="selectMenuItem(event)">Angebot</a></li>
+      <li><a class="menu-item padding-large" href="#history" onclick="selectMenuItem(event)">Geschichte</a></li>
+      <li><a class="menu-item padding-large" href="#contact" onclick="selectMenuItem(event)">Kontakt</a></li>
+      <li><a class="menu-item padding-large" href="#location" onclick="selectMenuItem(event)">Standort</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="content">
+  <!-- Seite Home -->
+  <div id="home">
+    <p>
+      Reklamebau GmbH produziert alle Arten von Beschriftungs- und Beleuchtungs-Grundkörpern.
+    </p>
+    <p>
+      Unsere Kunden sind SchriftenmaIer und Grafiker welche das Design von Körper, Licht &amp; Schrift entwickeln – wir stellen die Grundkörper und Lichtinstallationen her und führen Montagearbeiten aus.
+    </p>
+    <p>
+      Schweizer Handarbeit – unterstützt durch historische Biegeapparate und moderne CNC-Fräsen.
+    </p>
+    <p class="light-blue">
+      Schnell - flexibel - direkt.
+    </p>
+    <div class="images">
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/home1.jpg" alt="Home 1" />
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/home2.jpg" alt="Home 2" />
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/home3.jpg" alt="Home 3" />
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/home4.jpg" alt="Home 4" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Seite Angebot -->
+  <div id="offer">
+    <p>
+      Wir stellen alle möglichen Arten von Tafeln, Schilder, Einzelbuchstaben, hinterleuchtete Schriften, Leuchtkästen, Stehlen, Pylonen und Leitsystem-Tafeln her.
+    </p>
+    <p>
+      Beleuchtungsmittel stellen wir für anspruchsvolle Ausleuchtungen auch in modernster LED Technologie her.
+    </p>
+    <p>
+      Ebenfalls bieten wir Reinigungs- und Revisionsarbeiten an und führen Umbauten auf LED durch.
+    </p>
+    <p class="light-blue">
+      Schnell - flexibel - direkt.
+    </p>
+    <div class="images">
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/angebot1.jpg" alt="Angebot 1" />
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/angebot2.jpg" alt="Angebot 2" />
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/angebot3.jpg" alt="Angebot 3" />
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/angebot4.jpg" alt="Angebot 4" />
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/angebot5.jpg" alt="Angebot 5" />
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/angebot6.jpg" alt="Angebot 6" />
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/angebot7.jpg" alt="Angebot 7" />
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/angebot8.jpg" alt="Angebot 8" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Seite Geschichte -->
+  <div id="history">
+    <table>
+      <tr>
+        <td>1910</td>
+        <td>Erste, mit Datum markierte Fotos des «<b>J. Knafl Glas-Reklame-Institut Zürich</b>» sind erfasst, das effektive Gründungsdatum bleibt unbekannt.</td>
+      </tr>
+      <tr>
+        <td>1919</td>
+        <td>Patent von J. Knafl; Reklameschild mit Licht-reflektierenden Flächen.</td>
+      </tr>
+      <tr>
+        <td>1923</td>
+        <td>Gründung der Firma «<b>Isidor &amp; Alfred Knafl</b>» durch Isidor Knafl Senior und seinen Bruder Alfred; mit eigener Glasbläserei.</td>
+      </tr>
+      <tr>
+        <td>1931</td>
+        <td>Patent von Alfred Knafl; Selbsttätige Einrichtung zur Einschaltung einer elektrischen Lampe, mittels Nutzung der Klöppelbewegung eines Weckers.</td>
+      </tr>
+      <tr>
+        <td>1933/34</td>
+        <td>Zwei Patente von Isidor Knafl Senior; eines für mattierte Oberflächen in Glasplatten zur Optimierung der Lichtstreuung und das andere für die federnde Lagerung von Neonröhren.</td>
+      </tr>
+      <tr>
+        <td>1955</td>
+        <td>Gründung der Firma «<b>I&amp;R Knafl</b>» an der Seestrasse in Thalwil, durch Isidor Knafl Junior und seinen Sohn Rolf.</td>
+      </tr>
+      <tr>
+        <td>1969</td>
+        <td>Gründung der Firma «<b>André Knafl, Thalwil</b>» an der Ludretikonerstrasse in Thalwil, durch André Knafl, Sohn des Isidor Knafl Junior und Bruder des Rolf Knafl.</td>
+      </tr>
+      <tr>
+        <td>2003</td>
+        <td>Gründung der Firma «<b>Reklamebau Lienert</b>» durch Benno Lienert, langjähriger (29 Jahre) Mitarbeiter der Firma André Knafl Metallbau.</td>
+      </tr>
+      <tr>
+        <td>2017</td>
+        <td>Gründung der Firma «<b>Reklamebau GmbH</b>» durch Roger Widmer, langjähriger (19 Jahre) Mitarbeiter der André Knafl Metallbau und Reklamebau Lienert.</td>
+      </tr>
+    </table>
+    <p>
+      Wir waren, sind und bleiben
+    </p>
+    <p class="light-blue">
+      Schnell - flexibel - direkt.
+    </p>
+    <div class="images">
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/geschichte1.jpg" alt="Glas Reklamen"/>
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/geschichte2.jpg" alt="Firmen Schilder"/>
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/geschichte3.jpg" alt="Patentschift Nr.83217"/>
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="img">
+          <img src="../images/geschichte4.jpg" alt="Muster" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Seite Kontakt -->
+  <div id="contact">
+    <p>
+      <b>Reklamebau GmbH</b><br />
+      Ludretikonerstrasse 37<br />
+      8800 Thalwil<br />
+      Schweiz<br />
+    </p>
+    <table>
+      <tr>
+        <td>Telefon</td>
+        <td><a href="tel:+41447204380">044 720 43 80</a></td>
+      </tr>
+      <tr>
+        <td>Fax</td>
+        <td><a href="tel:+41447206274">044 720 62 74</a></td>
+      </tr>
+      <tr>
+        <td>Mobile</td>
+        <td><a href="tel:+41796899028">079 689 90 28</a></td>
+      </tr>
+    </table>
+    <p>
+      <b>Roger Widmer</b><br />
+      Geschäftsführer<br />
+      <a href="mailto:roger.widmer@reklamebau.ch">roger.widmer@reklamebau.ch</a><br />
+    </p>
+    <img src="../images/kontakt1.jpg" alt="Geschäftsführer"/>
+  </div>
+
+  <!-- Seite Standort -->
+  <div id="location">
+    <p>
+      <b>Reklamebau GmbH</b><br />
+      Ludretikonerstrasse 37<br />
+      8800 Thalwil<br />
+      Schweiz<br />
+    </p>
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4370.125104254935!2d8.55345373040196!3d47.30044089273149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa7ce87cee187%3A0x25e42772da74f94f!2sReklamebau+Lienert!5e0!3m2!1sde!2sch!4v1482963786199" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+</body>
+</html>
