@@ -8,7 +8,6 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css"/>
-  <script type="text/javascript" src="menu.js"></script>
 </head>
 <body>
 <div class="header hide-small">
@@ -25,7 +24,7 @@
         <div class="bar3"></div>
       </div>
     </li>
-    <li><a id="default" class="menu-item padding-large" onclick="selectMenuItem('home')">Home</a></li>
+    <li class="hide-small"><a class="menu-item padding-large" onclick="selectMenuItem('home')">Home</a></li>
     <li class="hide-small"><a class="menu-item padding-large" onclick="selectMenuItem('history')">Geschichte</a></li>
     <li class="hide-small"><a class="menu-item padding-large" onclick="selectMenuItem('contact')">Kontakt</a></li>
     <li class="hide-small"><a class="menu-item padding-large" onclick="selectMenuItem('location')">Standort</a></li>
@@ -33,16 +32,17 @@
   <!-- small screens -->
   <div id="small" class="hide hide-large">
     <ul class="menu left-align large">
-      <li><a class="menu-item padding-large" href="#history" onclick="selectMenuItem(event)">Geschichte</a></li>
-      <li><a class="menu-item padding-large" href="#contact" onclick="selectMenuItem(event)">Kontakt</a></li>
-      <li><a class="menu-item padding-large" href="#location" onclick="selectMenuItem(event)">Standort</a></li>
+      <li><a class="menu-item padding-large" onclick="selectMenuItem('home')">Home</a></li>
+      <li><a class="menu-item padding-large" onclick="selectMenuItem('history')">Geschichte</a></li>
+      <li><a class="menu-item padding-large" onclick="selectMenuItem('contact')">Kontakt</a></li>
+      <li><a class="menu-item padding-large" onclick="selectMenuItem('location')">Standort</a></li>
     </ul>
   </div>
 </div>
 
 <div class="content">
   <!-- Seite Home -->
-  <div id="home">
+  <div id="home" class="">
     <p>
       Reklamebau GmbH produziert alle Arten von Beschriftungs- und Beleuchtungs-Grundkörpern.
     </p>
@@ -120,7 +120,7 @@
   </div>
 
   <!-- Seite Geschichte -->
-  <div id="history">
+  <div id="history" class="inactive">
     <table>
       <tr>
         <td>1910</td>
@@ -190,7 +190,7 @@
   </div>
 
   <!-- Seite Kontakt -->
-  <div id="contact">
+  <div id="contact" class="inactive">
     <p>
       <b>Reklamebau GmbH</b><br />
       Ludretikonerstrasse 37<br />
@@ -219,17 +219,12 @@
     <img src="images/kontakt1.jpg" alt="Geschäftsführer"/>
   </div>
   <!-- Seite Standort -->
-  <div id="location">
-    <p>
-      <b>Reklamebau GmbH</b><br />
-      Ludretikonerstrasse 37<br />
-      8800 Thalwil<br />
-      Schweiz<br />
-    </p>
+  <div id="location" class="inactive">
     <div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4370.125104254935!2d8.55345373040196!3d47.30044089273149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa7ce87cee187%3A0x25e42772da74f94f!2sReklamebau+Lienert!5e0!3m2!1sde!2sch!4v1482963786199" allowfullscreen></iframe>
     </div>
   </div>
 </div>
 </body>
+<script type="text/javascript" src="menu.js"></script>
 </html>
