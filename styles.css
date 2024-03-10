@@ -60,8 +60,7 @@ body{
 @media (min-width: 601px) {
     .hide-large { display: none!important; }
     body {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto 0 auto;
     }
 }
 
