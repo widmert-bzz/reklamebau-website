@@ -113,7 +113,7 @@
             id="layer3">
         <rect
                 y="208.59445"
-                x="0"
+                x="20"
                 height="69"
                 width="351"
                 id="rect3394"
@@ -124,19 +124,19 @@
             id="layer4">
         <text
                 class="text-bold color-black"
-                x="-3.24"
+                x="16.76"
                 y="220.83359"
                 xml:space="preserve"><tspan
          id="tspan3388"
-         x="-3.24"
+         x="16.76"
          y="220.83359">reklamebau</tspan></text>
         <text
                 class="text-bold color-white"
                 y="267.13446"
-                x="102.2"
+                x="122.2"
                 xml:space="preserve"><tspan
          y="267.13446"
-         x="102.2"
+         x="122.2"
          id="tspan3392">gmbh</tspan></text>
     </g>
 </svg>
